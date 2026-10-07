@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">Osaid — Creative Developer</title>
+  <desc id="desc">Charcoal and lime personal lab banner with a wireframe orbital sculpture. Interfaces with atmosphere. Tools with purpose.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#c3ed88" stroke-opacity=".045"/></pattern>
+    <radialGradient id="halo"><stop stop-color="#c3ed88" stop-opacity=".13"/><stop offset="1" stop-color="#c3ed88" stop-opacity="0"/></radialGradient>
+    <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7ffab"/><stop offset="1" stop-color="#526441"/></linearGradient>
+  </defs>
+  <rect width="1280" height="440" rx="16" fill="#0d100d"/>
+  <rect width="1280" height="440" rx="16" fill="url(#grid)"/>
+  <circle cx="1000" cy="216" r="260" fill="url(#halo)"/>
+  <path d="M48 76V48H76M1204 48H1232V76M48 364V392H76M1204 392H1232V364" fill="none" stroke="#c3ed88" stroke-opacity=".5"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <circle cx="79" cy="88" r="4" fill="#c3ed88"/>
+    <text x="96" y="93" fill="#c3ed88" font-size="13" letter-spacing="3">PERSONAL LAB / OSAID829</text>
+    <text x="78" y="237" fill="#eff4e9" font-size="126" font-weight="700" letter-spacing="-8">OSAID<tspan fill="#c3ed88">.</tspan></text>
+    <text x="82" y="282" fill="#c3ed88" font-size="17" letter-spacing="4">CREATIVE DEVELOPER</text>
+    <text x="82" y="339" fill="#b0b8a9" font-size="17">Interfaces with atmosphere. Tools with purpose.</text>
+    <text x="1178" y="374" text-anchor="end" fill="#829076" font-size="11" letter-spacing="2">BUILD / EXPLORE / REPEAT</text>
+  </g>
+  <g transform="translate(995 213) rotate(-24)" fill="none" stroke="url(#orb)">
+    <circle r="133" stroke-width="1.5"/>
+    <ellipse rx="133" ry="51" stroke-width="1.3"/>
+    <ellipse rx="133" ry="93" stroke-opacity=".65"/>
+    <ellipse rx="51" ry="133" stroke-width="1.3"/>
+    <ellipse rx="93" ry="133" stroke-opacity=".65"/>
+    <path d="M-133 0H133M0-133V133" stroke-opacity=".45"/>
+    <ellipse rx="184" ry="39" transform="rotate(-24)" stroke="#c3ed88" stroke-width="1.4"/>
+    <circle cx="166" cy="-66" r="5" fill="#c3ed88" stroke="none"/>
+  </g>
+</svg>
